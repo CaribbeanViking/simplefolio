@@ -17,6 +17,19 @@ h1 {
 
 .img-809 {
   margin: 1em;
+  transition: transform 0.7s ease-in-out;
+}
+
+.img-809:hover {
+  transform: rotate(360deg) scale(1.2);
+}
+
+.me-pic {
+  transition: transform 1.2s ease-in-out;
+}
+
+.me-pic:hover {
+  transform: scale(1.1);
 }
 
 p,
